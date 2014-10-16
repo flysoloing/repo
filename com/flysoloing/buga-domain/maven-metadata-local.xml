@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.flysoloing</groupId>
+  <artifactId>buga-domain</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20141016034828</lastUpdated>
+  </versioning>
+</metadata>
