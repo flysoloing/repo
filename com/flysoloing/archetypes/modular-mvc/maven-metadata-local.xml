@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.flysoloing.archetypes</groupId>
+  <artifactId>modular-mvc</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20151005140143</lastUpdated>
+  </versioning>
+</metadata>
