@@ -1,18 +1,26 @@
 Maven Repository of flysoloing
 ====
-This is my common **SDK** maven `repository`. 
 
+Maven Libs Repository Configuration
 ----
-
-Maven Repository Configuration
-----
-To use this **SDK** in your owner java maven project, please config your `pom.xml` as flow:
 ```xml
 <repositories>
     <repository>
-        <id>flysoloing-repo</id>
-        <name>Flysoloing Maven Repository</name>
-        <url>http://flysoloing.github.io/repo</url>
+        <id>flysoloing-maven-libs-repo</id>
+        <name>Flysoloing Maven Libs Repository</name>
+        <url>http://flysoloing.github.io/repo/libs</url>
     </repository>
 </repositories>
+```
+
+Maven Plugins Repository Configuration
+----
+```xml
+<pluginRepositories>
+    <pluginRepository>
+        <id>flysoloing-maven-plugins-repo</id>
+        <name>Flysoloing Maven Plugins Repository</name>
+        <url>http://flysoloing.github.io/repo/plugins</url>
+    </pluginRepository>
+</pluginRepositories>
 ```
