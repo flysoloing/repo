@@ -51,19 +51,19 @@
     </repositories>
 
     <!-- private remote plugins repository -->
-    <!--<pluginRepositories>-->
-    <!--<pluginRepository>-->
-    <!--<id>flysoloing-maven-plugins-repo</id>-->
-    <!--<name>Flysoloing Maven Plugins Repository</name>-->
-    <!--<url>http://flysoloing.github.io/repo/plugins</url>-->
-    <!--<releases>-->
-    <!--<enabled>true</enabled>-->
-    <!--</releases>-->
-    <!--<snapshots>-->
-    <!--<enabled>true</enabled>-->
-    <!--</snapshots>-->
-    <!--</pluginRepository>-->
-    <!--</pluginRepositories>-->
+    <pluginRepositories>
+        <pluginRepository>
+            <id>flysoloing-maven-plugins-repo</id>
+            <name>Flysoloing Maven Plugins Repository</name>
+            <url>http://flysoloing.github.io/repo/plugins</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </pluginRepository>
+    </pluginRepositories>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
