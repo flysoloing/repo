@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sat Nov 21 00:24:32 CST 2015
+ghrepo-maven-plugin-1.0-SNAPSHOT.pom>=
+ghrepo-maven-plugin-1.0-SNAPSHOT-sources.jar>=
+ghrepo-maven-plugin-1.0-SNAPSHOT.jar>=
