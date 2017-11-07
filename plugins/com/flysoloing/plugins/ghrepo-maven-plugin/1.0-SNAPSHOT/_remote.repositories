@@ -1,6 +1,5 @@
 #NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Tue Dec 08 00:48:16 CST 2015
-ghrepo-maven-plugin-1.0-SNAPSHOT.jar>flysoloing-maven-plugins-repo=
-ghrepo-maven-plugin-1.0-SNAPSHOT-sources.jar>=
+#Tue Nov 07 12:15:45 CST 2017
 ghrepo-maven-plugin-1.0-SNAPSHOT.pom>=
+ghrepo-maven-plugin-1.0-SNAPSHOT-sources.jar>=
 ghrepo-maven-plugin-1.0-SNAPSHOT.jar>=
