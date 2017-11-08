@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.flysoloing.plugins</groupId>
-  <artifactId>ghrepo-maven-plugin</artifactId>
+  <artifactId>codegen-maven-plugin</artifactId>
   <versioning>
     <latest>1.0-SNAPSHOT</latest>
     <versions>

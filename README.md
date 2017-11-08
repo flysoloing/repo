@@ -1,8 +1,8 @@
-Maven Repository of flysoloing
-====
+# Flysoloing Maven Repository
 
-Maven Libs Repository Configuration
-----
+##  如何使用？
+
+1. 复制如下两段配置代码，分别为libs和plugins
 ```xml
 <repositories>
     <repository>
@@ -12,9 +12,6 @@ Maven Libs Repository Configuration
     </repository>
 </repositories>
 ```
-
-Maven Plugins Repository Configuration
-----
 ```xml
 <pluginRepositories>
     <pluginRepository>
@@ -24,3 +21,8 @@ Maven Plugins Repository Configuration
     </pluginRepository>
 </pluginRepositories>
 ```
+
+2. 第三方远程仓库设置，有两种方式
+
+* 全局配置，在`~/MVN_HOME/conf/settings.xml`中，找到`<profiles>...</profiles>`，作为profile添加
+* 局部配置，在需要使用插件的应用代码中，找到`pom.xml`，粘贴步骤1配置代码

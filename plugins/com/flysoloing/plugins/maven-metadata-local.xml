@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.flysoloing</groupId>
+  <artifactId>plugins</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20171108125501</lastUpdated>
+  </versioning>
+  <plugins>
+    <plugin>
+      <name>ghrepo-maven-plugin</name>
+      <prefix>ghrepo</prefix>
+      <artifactId>ghrepo-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>codegen-maven-plugin</name>
+      <prefix>codegen</prefix>
+      <artifactId>codegen-maven-plugin</artifactId>
+    </plugin>
+    <plugin>
+      <name>compress-maven-plugin</name>
+      <prefix>compress</prefix>
+      <artifactId>compress-maven-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
