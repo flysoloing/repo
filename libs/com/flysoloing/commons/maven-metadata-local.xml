@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.flysoloing</groupId>
-  <artifactId>code-parent</artifactId>
+  <artifactId>commons</artifactId>
   <versioning>
     <versions>
       <version>1.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20171111094432</lastUpdated>
+    <lastUpdated>20171111094444</lastUpdated>
   </versioning>
 </metadata>
