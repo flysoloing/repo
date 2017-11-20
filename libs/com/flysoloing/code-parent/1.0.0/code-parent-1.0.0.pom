@@ -74,6 +74,8 @@
         <spring.version>4.3.4.RELEASE</spring.version>
         <!-- zk -->
         <curator.version>3.2.1</curator.version>
+        <!-- Redis -->
+        <jedis.version>2.9.0</jedis.version>
         <!-- resteasy -->
         <resteasy.version>3.0.19.Final</resteasy.version>
         <!-- mybatis -->
@@ -302,6 +304,15 @@
                 <groupId>org.apache.curator</groupId>
                 <artifactId>curator-test</artifactId>
                 <version>${curator.version}</version>
+            </dependency>
+
+            <!-- Redis -->
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+                <type>jar</type>
+                <scope>compile</scope>
             </dependency>
 
             <!-- resteasy -->
