@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 15 20:55:48 CST 2018
+commons-1.0.pom>=
+commons-1.0-sources.jar>=
+commons-1.0.jar>=

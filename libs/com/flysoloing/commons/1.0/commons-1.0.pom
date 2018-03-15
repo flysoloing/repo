@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.flysoloing</groupId>
+        <artifactId>code-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+    <groupId>com.flysoloing</groupId>
+    <artifactId>commons</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0</version>
+    <name>commons</name>
+    <url>https://github.com/flysoloing/commons</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-beans</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.velocity</groupId>
+            <artifactId>velocity-tools</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.flysoloing.plugins</groupId>
+                <artifactId>ghrepo-maven-plugin</artifactId>
+                <configuration>
+                    <!-- ghrepo:sync conf -->
+                    <enable>true</enable>
+                    <localGhRepoLibsPath>D:\DevEnv\repo\libs</localGhRepoLibsPath>
+                    <localGhRepoPluginsPath>D:\DevEnv\repo\plugins</localGhRepoPluginsPath>
+                    <!-- ghrepo:help conf -->
+                    <detail>true</detail>
+                    <!--<goal>help</goal>-->
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>flush</id>
+                        <phase>install</phase>
+                        <goals>
+                            <goal>sync</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

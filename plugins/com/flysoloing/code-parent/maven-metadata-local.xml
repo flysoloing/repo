@@ -3,11 +3,12 @@
   <groupId>com.flysoloing</groupId>
   <artifactId>code-parent</artifactId>
   <versioning>
-    <release>1.0.0</release>
+    <release>1.0</release>
     <versions>
       <version>1.0-SNAPSHOT</version>
       <version>1.0.0</version>
+      <version>1.0</version>
     </versions>
-    <lastUpdated>20171120112417</lastUpdated>
+    <lastUpdated>20180315122749</lastUpdated>
   </versioning>
 </metadata>
